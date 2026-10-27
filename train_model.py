@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent
 MODEL_PATH = ROOT / "models" / "saudi_hotel_sentiment.joblib"
 SAUDI_CITIES = [
     "الرياض", "riyadh", "جدة", "jeddah", "مكة", "مكه", "makkah", "mecca",
-    "المدينة المنورة", "المدينه المنوره", "madinah", "المدينة", "الدمام",
+    "المدينة المنورة", "المدينه المنوره", "madinah", "الدمام",
     "dammam", "الخبر", "khobar", "الظهران", "dhahran", "الطائف", "taif",
     "أبها", "ابها", "abha", "تبوك", "tabuk", "ينبع", "yanbu", "جازان",
     "jazan", "حائل", "hail", "بريدة", "buraidah", "الأحساء", "الاحساء",

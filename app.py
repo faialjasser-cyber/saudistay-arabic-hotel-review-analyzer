@@ -45,7 +45,7 @@ with tab1:
                 hotel_options = ["بدون"] + cols
                 hotel_col = st.selectbox("عمود اسم الفندق", hotel_options, index=next((i + 1 for i, c in enumerate(cols) if str(c).lower() in {"hotel_name", "hotel"}), 0))
             cities = ["الرياض", "riyadh", "جدة", "jeddah", "مكة", "مكه", "makkah", "mecca",
-                      "المدينة", "madinah", "الدمام", "dammam", "الخبر", "khobar", "الطائف",
+                      "المدينة المنورة", "المدينه المنوره", "madinah", "الدمام", "dammam", "الخبر", "khobar", "الطائف",
                       "taif", "أبها", "ابها", "abha", "تبوك", "tabuk", "ينبع", "yanbu",
                       "جازان", "jazan", "حائل", "hail", "الأحساء", "الاحساء", "نجران", "najran"]
             pattern = "|".join(cities)
