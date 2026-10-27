@@ -1,6 +1,13 @@
 ## Live Demo
 
 [Launch SaudiStay](https://saudistay-arabic-hotel-review-analyzer-efnbd6nmws3qdlqyf6jv4g.streamlit.app/)
+
+## Dataset
+
+To try the app with the same data, download the [balanced hotel reviews dataset](https://docs.google.com/spreadsheets/d/1adzwqzxjernhYZgEBHABC8iRptAi5fvI/edit).
+
+In Google Sheets, select **File → Download → Microsoft Excel (.xlsx)**, then upload the downloaded file in the SaudiStay app.
+
 # SaudiStay — Arabic Hotel Review Analyzer
 
 SaudiStay is a beginner-friendly Arabic NLP project for analyzing reviews of hotels located in Saudi Arabia. It includes model training and a Streamlit web application.
